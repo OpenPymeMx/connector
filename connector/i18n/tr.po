@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: connector (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-17 07:17+0000\n"
-"PO-Revision-Date: 2016-11-25 14:57+0000\n"
+"POT-Creation-Date: 2017-04-05 02:47+0000\n"
+"PO-Revision-Date: 2017-04-25 10:39+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Turkish (http://www.transifex.com/oca/OCA-connector-8-0/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,active:0
 msgid "Active"
-msgstr ""
+msgstr "Aktif"
 
 #. module: connector
 #: field:connector.config.settings,alias_domain:0
@@ -96,13 +96,13 @@ msgid "Canceled. Nothing to do."
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:457
+#: code:addons/connector/queue/model.py:462
 #, python-format
 msgid "Cannot change the root channel"
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:464
+#: code:addons/connector/queue/model.py:469
 #, python-format
 msgid "Cannot remove the root channel"
 msgstr ""
@@ -151,7 +151,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Şirket"
 
 #. module: connector
 #: field:queue.job.channel,complete_name:0 field:queue.job.function,channel:0
@@ -258,7 +258,7 @@ msgstr "Açıklama"
 #: field:queue.job.function,display_name:0
 #: field:queue.requeue.job,display_name:0 field:queue.worker,display_name:0
 msgid "Display Name"
-msgstr ""
+msgstr "Görünen İsim"
 
 #. module: connector
 #: view:queue.job:connector.view_queue_job_search selection:queue.job,state:0
@@ -298,7 +298,7 @@ msgstr ""
 #. module: connector
 #: view:queue.job:connector.view_queue_job_search selection:queue.job,state:0
 msgid "Failed"
-msgstr ""
+msgstr "Başarısız"
 
 #. module: connector
 #: field:connector.checkpoint,message_follower_ids:0
@@ -333,7 +333,7 @@ msgstr "Grupla..."
 msgid ""
 "Holds the Chatter summary (number of messages, ...). This summary is "
 "directly in html format in order to be inserted in kanban views."
-msgstr ""
+msgstr "Sohbet özetini tutar (kaç mesa vs) Bu özet kanban görünümleri gibi yerlerde kullanılmak için doğrudan HTML formatındadır. "
 
 #. module: connector
 #: field:connector.backend,id:0 field:connector.checkpoint,id:0
@@ -430,7 +430,7 @@ msgstr "Son mesaj tarihi"
 #: field:queue.job.function,__last_update:0
 #: field:queue.requeue.job,__last_update:0 field:queue.worker,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Son değişiklik"
 
 #. module: connector
 #: field:connector.checkpoint,write_uid:0
@@ -477,7 +477,7 @@ msgstr "Mesajlar"
 #. module: connector
 #: help:connector.checkpoint,message_ids:0 help:queue.job,message_ids:0
 msgid "Messages and communication history"
-msgstr ""
+msgstr "Mesaj ve iletişim geçmişi"
 
 #. module: connector
 #: view:connector.checkpoint:connector.view_connector_checkpoint_search
@@ -524,7 +524,7 @@ msgid "Parent Channel"
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:449
+#: code:addons/connector/queue/model.py:454
 #, python-format
 msgid "Parent channel required."
 msgstr ""
@@ -648,7 +648,7 @@ msgid "Share or embbed any screen of Odoo."
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:187
+#: code:addons/connector/queue/model.py:192
 #, python-format
 msgid ""
 "Something bad happened during the execution of the job. More details in the "
@@ -673,7 +673,7 @@ msgstr "Durum"
 #. module: connector
 #: field:connector.checkpoint,state:0
 msgid "Status"
-msgstr ""
+msgstr "Durum"
 
 #. module: connector
 #: field:connector.checkpoint,message_summary:0
@@ -684,7 +684,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,func_string:0
 msgid "Task"
-msgstr ""
+msgstr "Görev"
 
 #. module: connector
 #: help:queue.job,max_retries:0

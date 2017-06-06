@@ -4,14 +4,14 @@
 # 
 # Translators:
 # zeng <z_fy@live.cn>, 2016
-# zeng <z_fy@live.cn>, 2016
+# zeng <z_fy@live.cn>, 2016-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: connector (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-17 07:17+0000\n"
-"PO-Revision-Date: 2016-11-25 14:56+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"POT-Creation-Date: 2017-04-05 02:47+0000\n"
+"PO-Revision-Date: 2017-04-19 01:22+0000\n"
+"Last-Translator: zeng <z_fy@live.cn>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/oca/OCA-connector-8-0/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,16 +95,16 @@ msgstr "取消"
 #: code:addons/connector/queue/job.py:619
 #, python-format
 msgid "Canceled. Nothing to do."
-msgstr ""
+msgstr "已取消"
 
 #. module: connector
-#: code:addons/connector/queue/model.py:457
+#: code:addons/connector/queue/model.py:462
 #, python-format
 msgid "Cannot change the root channel"
 msgstr "不能修改根节点"
 
 #. module: connector
-#: code:addons/connector/queue/model.py:464
+#: code:addons/connector/queue/model.py:469
 #, python-format
 msgid "Cannot remove the root channel"
 msgstr "不能移除根节点"
@@ -311,7 +311,7 @@ msgstr "听众"
 #. module: connector
 #: field:queue.job,func_name:0
 msgid "Func name"
-msgstr ""
+msgstr "函数名称"
 
 #. module: connector
 #: help:connector.config.settings,module_portal:0
@@ -526,7 +526,7 @@ msgid "Parent Channel"
 msgstr "上级节点"
 
 #. module: connector
-#: code:addons/connector/queue/model.py:449
+#: code:addons/connector/queue/model.py:454
 #, python-format
 msgid "Parent channel required."
 msgstr "需要指定上级节点"
@@ -650,7 +650,7 @@ msgid "Share or embbed any screen of Odoo."
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:187
+#: code:addons/connector/queue/model.py:192
 #, python-format
 msgid ""
 "Something bad happened during the execution of the job. More details in the "

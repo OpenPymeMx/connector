@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: connector (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-17 07:17+0000\n"
-"PO-Revision-Date: 2016-11-25 14:56+0000\n"
+"POT-Creation-Date: 2017-04-05 02:47+0000\n"
+"PO-Revision-Date: 2017-03-02 22:14+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
 "Language-Team: Spanish (Costa Rica) (http://www.transifex.com/oca/OCA-connector-8-0/language/es_CR/)\n"
 "MIME-Version: 1.0\n"
@@ -96,13 +96,13 @@ msgid "Canceled. Nothing to do."
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:457
+#: code:addons/connector/queue/model.py:462
 #, python-format
 msgid "Cannot change the root channel"
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:464
+#: code:addons/connector/queue/model.py:469
 #, python-format
 msgid "Cannot remove the root channel"
 msgstr ""
@@ -151,7 +151,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Compañía"
 
 #. module: connector
 #: field:queue.job.channel,complete_name:0 field:queue.job.function,channel:0
@@ -212,7 +212,7 @@ msgstr ""
 #: field:connector.config.settings,create_uid:0
 #: field:queue.job.channel,create_uid:0 field:queue.requeue.job,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: connector
 #: field:connector.checkpoint,create_date:0
@@ -438,7 +438,7 @@ msgstr ""
 #: field:connector.config.settings,write_uid:0
 #: field:queue.job.channel,write_uid:0 field:queue.requeue.job,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Ultima actualización por"
 
 #. module: connector
 #: field:connector.checkpoint,write_date:0
@@ -446,7 +446,7 @@ msgstr ""
 #: field:connector.config.settings,write_date:0
 #: field:queue.job.channel,write_date:0 field:queue.requeue.job,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Ultima actualización en"
 
 #. module: connector
 #: field:external.binding,sync_date:0
@@ -524,7 +524,7 @@ msgid "Parent Channel"
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:449
+#: code:addons/connector/queue/model.py:454
 #, python-format
 msgid "Parent channel required."
 msgstr ""
@@ -648,7 +648,7 @@ msgid "Share or embbed any screen of Odoo."
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:187
+#: code:addons/connector/queue/model.py:192
 #, python-format
 msgid ""
 "Something bad happened during the execution of the job. More details in the "
@@ -673,7 +673,7 @@ msgstr ""
 #. module: connector
 #: field:connector.checkpoint,state:0
 msgid "Status"
-msgstr ""
+msgstr "Estado"
 
 #. module: connector
 #: field:connector.checkpoint,message_summary:0
@@ -684,7 +684,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,func_string:0
 msgid "Task"
-msgstr ""
+msgstr "Tarea"
 
 #. module: connector
 #: help:queue.job,max_retries:0

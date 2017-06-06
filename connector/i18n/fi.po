@@ -3,13 +3,14 @@
 # * connector
 # 
 # Translators:
+# Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: connector (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-17 07:17+0000\n"
-"PO-Revision-Date: 2016-11-25 14:55+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
+"POT-Creation-Date: 2017-05-01 16:08+0000\n"
+"PO-Revision-Date: 2017-05-11 14:14+0000\n"
+"Last-Translator: Jarmo Kortetjärvi <jarmo.kortetjarvi@gmail.com>\n"
 "Language-Team: Finnish (http://www.transifex.com/oca/OCA-connector-8-0/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +46,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,active:0
 msgid "Active"
-msgstr ""
+msgstr "Aktiivinen"
 
 #. module: connector
 #: field:connector.config.settings,alias_domain:0
@@ -96,13 +97,13 @@ msgid "Canceled. Nothing to do."
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:457
+#: code:addons/connector/queue/model.py:462
 #, python-format
 msgid "Cannot change the root channel"
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:464
+#: code:addons/connector/queue/model.py:469
 #, python-format
 msgid "Cannot remove the root channel"
 msgstr ""
@@ -151,7 +152,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,company_id:0
 msgid "Company"
-msgstr ""
+msgstr "Yritys"
 
 #. module: connector
 #: field:queue.job.channel,complete_name:0 field:queue.job.function,channel:0
@@ -298,7 +299,7 @@ msgstr ""
 #. module: connector
 #: view:queue.job:connector.view_queue_job_search selection:queue.job,state:0
 msgid "Failed"
-msgstr ""
+msgstr "Epäonnistunut"
 
 #. module: connector
 #: field:connector.checkpoint,message_follower_ids:0
@@ -320,7 +321,7 @@ msgstr ""
 #: view:queue.job:connector.view_queue_job_search
 #: view:queue.job.function:connector.view_queue_job_function_search
 msgid "Group By"
-msgstr ""
+msgstr "Ryhmittele"
 
 #. module: connector
 #: view:connector.checkpoint:connector.view_connector_checkpoint_search
@@ -347,7 +348,7 @@ msgstr "ID"
 #. module: connector
 #: help:connector.checkpoint,message_unread:0 help:queue.job,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "Jos valittuna, uudet viestit vaatii toimenpiteitä."
+msgstr "Jos valittuna, uudet viestit vaativat toimenpiteitä."
 
 #. module: connector
 #: view:queue.job:connector.view_queue_job_form
@@ -524,7 +525,7 @@ msgid "Parent Channel"
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:449
+#: code:addons/connector/queue/model.py:454
 #, python-format
 msgid "Parent channel required."
 msgstr ""
@@ -542,7 +543,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,priority:0
 msgid "Priority"
-msgstr ""
+msgstr "Prioriteetti"
 
 #. module: connector
 #: model:ir.ui.menu,name:connector.menu_queue
@@ -648,7 +649,7 @@ msgid "Share or embbed any screen of Odoo."
 msgstr ""
 
 #. module: connector
-#: code:addons/connector/queue/model.py:187
+#: code:addons/connector/queue/model.py:192
 #, python-format
 msgid ""
 "Something bad happened during the execution of the job. More details in the "
@@ -684,7 +685,7 @@ msgstr ""
 #. module: connector
 #: field:queue.job,func_string:0
 msgid "Task"
-msgstr ""
+msgstr "Tehtävä"
 
 #. module: connector
 #: help:queue.job,max_retries:0
@@ -780,7 +781,7 @@ msgstr ""
 #: view:connector.config.settings:connector.view_connector_config_settings
 #: view:queue.requeue.job:connector.view_requeue_job
 msgid "or"
-msgstr ""
+msgstr "tai"
 
 #. module: connector
 #: view:connector.checkpoint:connector.view_connector_checkpoint_form
